@@ -21,5 +21,11 @@ click = "*"
 
 [dev-packages]
 
+[script]
+ingest="python ingest.py"
+gpt="python run_localGPT.py"
+ingest_cpu="python ingest.py --device_type cpu"
+gpt_cpu="python run_localGPT.py --device_type cpu"
+
 [requires]
 python_version = "3.10"
