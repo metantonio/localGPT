@@ -21,7 +21,7 @@ click = "*"
 
 [dev-packages]
 
-[script]
+[scripts]
 ingest="python ingest.py"
 gpt="python run_localGPT.py"
 ingest_cpu="python ingest.py --device_type cpu"
